@@ -1,0 +1,281 @@
+UserID,Department,UserRole,JobTitle,Location,RegisteredDevice,TypingSpeedRange,AvgKeyHoldTimeRange,AvgFlightTimeRange,PatternMatchRange
+10001,Operations,Guest,Intern,Sydney,A4:5E:60:DF:89:06,47–79 wpm,90–167 ms,120–243 ms,0.69–0.95
+10002,Finance,Finance,Financial Analyst,Sydney,3C:15:C2:F5:80:5A,49–87 wpm,92–157 ms,130–200 ms,0.53–0.84
+10003,HR,HR,HR Manager,Bangalore,14:04:39:0F:E8:68,44–72 wpm,89–194 ms,101–207 ms,0.65–0.91
+10004,Finance,Finance,Financial Analyst,Sydney,E6:05:F2:EE:52:A2,45–76 wpm,84–167 ms,148–273 ms,0.67–0.86
+10005,HR,HR,Recruiter,Sydney,F0:18:98:B3:6E:35,49–87 wpm,89–182 ms,115–273 ms,0.52–0.91
+10006,Marketing,Guest,Contractor,Sydney,3C:15:C2:0C:BB:B9,46–83 wpm,94–181 ms,148–207 ms,0.69–0.92
+10007,Operations,Guest,Intern,Sydney,3C:15:C2:DE:B5:B1,43–84 wpm,94–183 ms,144–288 ms,0.62–0.92
+10008,HR,HR,Recruiter,Sydney,A4:5E:60:70:24:7D,47–76 wpm,81–189 ms,126–245 ms,0.63–0.9
+10009,Finance,Finance,Financial Analyst,Melbourne,3C:02:98:E8:A7:A5,45–73 wpm,94–152 ms,124–230 ms,0.55–0.97
+10010,Operations,Guest,Contractor,Melbourne,62:A7:FE:B9:DA:8A,43–75 wpm,91–196 ms,101–272 ms,0.63–1.0
+10011,Marketing,Guest,Intern,Sydney,F0:18:98:06:4D:45,42–78 wpm,83–155 ms,118–230 ms,0.54–0.93
+10012,IT,Admin,System Administrator,Sydney,F3:7A:F5:2C:2D:EB,50–87 wpm,84–166 ms,116–261 ms,0.5–0.85
+10013,Marketing,Guest,Contractor,Sydney,3C:15:C2:02:0E:77,45–79 wpm,84–157 ms,137–203 ms,0.69–0.93
+10014,HR,HR,HR Manager,Sydney,A4:5E:60:C1:00:71,46–78 wpm,95–177 ms,146–210 ms,0.55–0.84
+10015,Finance,Finance,Accountant,Sydney,A4:5E:60:8D:9F:CC,48–74 wpm,83–175 ms,142–278 ms,0.68–0.95
+10016,HR,HR,HR Manager,Sydney,3C:15:C2:FA:C3:C0,48–73 wpm,89–161 ms,149–242 ms,0.55–0.97
+10017,IT,Admin,System Administrator,Bangalore,E8:46:B9:0A:B9:78,46–84 wpm,100–166 ms,148–255 ms,0.61–0.89
+10018,Marketing,Guest,Intern,Sydney,A4:5E:60:A9:AD:05,43–86 wpm,82–160 ms,139–234 ms,0.54–0.95
+10019,HR,HR,Recruiter,Sydney,A4:5E:60:DD:F6:CC,44–90 wpm,85–162 ms,100–244 ms,0.66–0.81
+10020,Marketing,Guest,Contractor,Sydney,AE:C3:50:CA:F4:7E,41–73 wpm,94–168 ms,148–216 ms,0.7–0.86
+10021,Operations,Guest,Intern,Sydney,3C:15:C2:D3:20:F7,49–70 wpm,92–195 ms,147–277 ms,0.51–0.87
+10022,IT,Admin,System Administrator,New York,08:34:E8:F6:F5:C9,42–89 wpm,89–155 ms,123–276 ms,0.57–0.94
+10023,IT,Admin,Network Engineer,Bangalore,99:CF:76:EE:2F:CE,47–77 wpm,88–177 ms,106–226 ms,0.59–0.89
+10024,HR,HR,Recruiter,Sydney,A4:5E:60:6D:19:00,45–81 wpm,97–180 ms,135–268 ms,0.64–0.97
+10025,Marketing,Guest,Intern,Sydney,F0:18:98:FF:1F:DE,40–79 wpm,85–181 ms,136–274 ms,0.5–0.86
+10026,Finance,Finance,Accountant,Sydney,F0:18:98:8D:11:B9,49–74 wpm,82–172 ms,120–262 ms,0.63–0.8
+10027,HR,HR,HR Manager,Sydney,A4:5E:60:68:98:0C,46–75 wpm,98–183 ms,126–259 ms,0.59–0.94
+10028,Operations,Guest,Intern,London,9D:FA:F1:23:0F:AE,48–86 wpm,98–161 ms,137–276 ms,0.55–0.94
+10029,Finance,Finance,Accountant,London,38:22:6F:96:DE:29,40–78 wpm,81–152 ms,146–275 ms,0.65–0.92
+10030,IT,Admin,Network Engineer,Sydney,F0:18:98:E0:02:D2,42–86 wpm,96–168 ms,124–248 ms,0.66–0.85
+10031,HR,HR,HR Manager,Sydney,F0:18:98:03:E8:91,46–85 wpm,83–165 ms,129–239 ms,0.51–0.93
+10032,IT,Admin,Network Engineer,Sydney,F0:18:98:CB:46:77,43–83 wpm,87–180 ms,137–203 ms,0.53–0.94
+10033,Finance,Finance,Accountant,London,DA:A9:D3:C1:64:ED,45–72 wpm,86–199 ms,129–299 ms,0.64–0.87
+10034,Marketing,Guest,Contractor,Melbourne,DD:24:94:1E:A0:17,47–70 wpm,85–177 ms,140–266 ms,0.59–0.98
+10035,Finance,Finance,Accountant,Sydney,F0:18:98:13:C7:CE,50–73 wpm,83–174 ms,107–213 ms,0.55–0.89
+10036,Finance,Finance,Financial Analyst,Sydney,F0:18:98:77:61:FD,45–86 wpm,83–162 ms,130–288 ms,0.56–0.93
+10037,HR,HR,Recruiter,Bangalore,EF:3E:E2:69:F2:37,44–82 wpm,89–160 ms,114–235 ms,0.53–0.94
+10038,Finance,Finance,Accountant,Sydney,1F:2D:95:92:A4:64,45–78 wpm,85–180 ms,126–272 ms,0.56–0.86
+10039,Operations,Guest,Contractor,Sydney,A4:5E:60:0D:5D:E6,44–90 wpm,89–175 ms,150–248 ms,0.65–0.82
+10040,Marketing,Guest,Intern,Sydney,F5:4F:E2:6B:71:D8,46–70 wpm,84–175 ms,122–279 ms,0.51–0.82
+10041,Finance,Finance,Financial Analyst,Sydney,FF:8A:7F:0C:8E:13,50–73 wpm,90–172 ms,118–273 ms,0.59–0.83
+10042,Operations,Guest,Intern,Sydney,F0:18:98:40:F2:84,44–73 wpm,83–155 ms,104–285 ms,0.64–0.88
+10043,IT,Admin,Network Engineer,Sydney,9D:04:FC:91:41:C7,49–73 wpm,98–160 ms,104–252 ms,0.58–0.99
+10044,IT,Admin,System Administrator,Sydney,3C:15:C2:C1:8E:7C,45–84 wpm,95–156 ms,132–259 ms,0.55–0.87
+10045,Operations,Guest,Contractor,Sydney,3C:15:C2:27:BC:E1,40–80 wpm,92–169 ms,124–249 ms,0.7–0.88
+10046,HR,HR,Recruiter,Sydney,AA:03:78:5E:32:0F,43–71 wpm,82–160 ms,123–263 ms,0.69–0.84
+10047,Marketing,Guest,Contractor,Sydney,A5:A3:52:88:F1:2F,48–71 wpm,85–155 ms,103–286 ms,0.59–0.82
+10048,Finance,Finance,Accountant,Sydney,3C:15:C2:04:19:0E,46–85 wpm,93–186 ms,135–265 ms,0.64–0.81
+10049,IT,Admin,Network Engineer,Bangalore,18:67:58:7F:AB:BD,43–85 wpm,98–177 ms,136–254 ms,0.55–0.89
+10050,HR,HR,Recruiter,Sydney,A4:5E:60:22:D8:53,45–78 wpm,91–198 ms,129–285 ms,0.6–0.98
+10051,IT,Admin,System Administrator,Sydney,A4:5E:60:D0:41:42,47–79 wpm,83–159 ms,132–229 ms,0.5–0.92
+10052,Marketing,Guest,Intern,Sydney,F4:18:14:21:B4:7C,48–82 wpm,94–155 ms,104–207 ms,0.66–0.86
+10053,Finance,Finance,Accountant,Sydney,F0:18:98:B2:09:5C,48–81 wpm,94–151 ms,122–268 ms,0.69–0.93
+10054,IT,Admin,System Administrator,Sydney,A4:5E:60:54:57:03,48–79 wpm,92–154 ms,145–272 ms,0.64–0.92
+10055,HR,HR,Recruiter,Melbourne,DA:E0:09:78:F8:8D,44–85 wpm,83–188 ms,134–232 ms,0.7–0.92
+10056,HR,HR,Recruiter,Sydney,A4:5E:60:A7:B8:84,47–89 wpm,98–155 ms,108–202 ms,0.56–0.86
+10057,Operations,Guest,Contractor,Bangalore,9F:0D:69:3E:FA:EC,44–82 wpm,90–183 ms,150–206 ms,0.65–0.86
+10058,HR,HR,HR Manager,Sydney,D3:66:24:3C:56:C1,40–73 wpm,92–185 ms,117–290 ms,0.6–0.85
+10059,Finance,Finance,Accountant,Sydney,F0:18:98:C2:41:BF,42–78 wpm,95–195 ms,117–272 ms,0.66–0.93
+10060,Finance,Finance,Accountant,Sydney,F0:18:98:BC:B0:57,41–89 wpm,91–174 ms,110–236 ms,0.69–0.91
+10061,HR,HR,HR Manager,Sydney,2E:B4:B0:26:63:AF,50–76 wpm,85–153 ms,101–254 ms,0.65–0.95
+10062,Operations,Guest,Intern,Sydney,6B:1E:F9:F5:A1:87,47–86 wpm,100–200 ms,103–242 ms,0.56–0.81
+10063,Finance,Finance,Accountant,Sydney,F0:18:98:18:2B:17,50–73 wpm,85–165 ms,133–207 ms,0.51–0.93
+10064,IT,Admin,Network Engineer,Sydney,3C:15:C2:30:26:37,48–71 wpm,90–164 ms,118–289 ms,0.69–0.85
+10065,Operations,Guest,Contractor,Sydney,D9:D1:60:A5:D2:68,44–73 wpm,82–193 ms,109–206 ms,0.65–0.94
+10066,Operations,Guest,Intern,Sydney,6F:6F:76:A5:22:32,48–78 wpm,82–183 ms,139–266 ms,0.67–0.91
+10067,Marketing,Guest,Intern,Sydney,F0:18:98:D0:9B:69,42–83 wpm,84–196 ms,134–286 ms,0.58–0.96
+10068,IT,Admin,Network Engineer,Melbourne,48:EA:27:DC:FD:94,48–74 wpm,91–188 ms,115–278 ms,0.55–0.9
+10069,IT,Admin,System Administrator,Sydney,A4:5E:60:87:36:4A,43–80 wpm,89–152 ms,121–259 ms,0.61–0.8
+10070,Marketing,Guest,Contractor,Sydney,26:9A:F4:A1:4C:82,42–80 wpm,95–151 ms,100–202 ms,0.67–0.89
+10071,Operations,Guest,Contractor,Sydney,D5:1D:8E:28:23:66,46–72 wpm,98–184 ms,103–236 ms,0.56–0.89
+10072,Marketing,Guest,Intern,Sydney,22:74:D1:11:E6:B2,44–82 wpm,82–180 ms,112–219 ms,0.65–0.87
+10073,Operations,Guest,Intern,Bangalore,97:1E:53:11:22:12,47–77 wpm,83–150 ms,107–234 ms,0.56–0.92
+10074,IT,Admin,Network Engineer,Sydney,A4:5E:60:A2:BA:28,45–88 wpm,81–173 ms,135–257 ms,0.6–0.99
+10075,Operations,Guest,Intern,Sydney,11:B8:3E:7A:A4:FA,50–80 wpm,88–167 ms,149–214 ms,0.64–0.88
+10076,IT,Admin,System Administrator,Sydney,3C:15:C2:0B:93:25,47–81 wpm,87–175 ms,148–251 ms,0.67–0.86
+10077,HR,HR,Recruiter,Sydney,3C:15:C2:D9:E1:41,46–90 wpm,81–199 ms,150–230 ms,0.56–0.93
+10078,Marketing,Guest,Intern,Sydney,0F:23:55:34:E5:73,48–90 wpm,81–169 ms,117–289 ms,0.6–0.98
+10079,Operations,Guest,Intern,Sydney,A4:5E:60:8D:83:94,42–73 wpm,81–160 ms,118–258 ms,0.64–0.87
+10080,Marketing,Guest,Contractor,Sydney,61:C0:1A:4F:5C:98,45–84 wpm,95–156 ms,141–259 ms,0.61–0.84
+10081,Marketing,Guest,Contractor,New York,A7:14:16:14:C4:EC,42–89 wpm,87–197 ms,146–204 ms,0.61–0.98
+10082,Marketing,Guest,Intern,Sydney,3C:15:C2:22:AB:78,48–82 wpm,80–164 ms,149–212 ms,0.66–0.87
+10083,IT,Admin,Network Engineer,Sydney,3C:15:C2:7C:70:07,47–85 wpm,88–189 ms,122–202 ms,0.6–0.95
+10084,IT,Admin,System Administrator,Bangalore,54:57:C5:10:5E:F0,43–79 wpm,86–199 ms,108–250 ms,0.57–0.92
+10085,Operations,Guest,Intern,Sydney,3C:15:C2:2B:7D:BE,50–70 wpm,92–180 ms,122–231 ms,0.63–0.81
+10086,HR,HR,Recruiter,Sydney,3C:15:C2:9B:D8:5E,40–87 wpm,100–188 ms,104–219 ms,0.65–0.89
+10087,Marketing,Guest,Contractor,Sydney,CA:BD:48:BC:F4:78,43–74 wpm,81–163 ms,120–234 ms,0.59–0.85
+10088,HR,HR,HR Manager,Sydney,74:58:A3:48:3D:29,48–90 wpm,86–195 ms,134–242 ms,0.65–0.87
+10089,HR,HR,HR Manager,London,4A:0A:F5:CF:77:D4,40–85 wpm,98–199 ms,148–220 ms,0.65–0.91
+10090,Finance,Finance,Financial Analyst,Sydney,3F:53:F2:3E:3B:F7,43–85 wpm,98–170 ms,134–244 ms,0.7–0.94
+10091,HR,HR,HR Manager,Sydney,61:51:58:F2:60:C3,49–73 wpm,93–177 ms,112–292 ms,0.51–0.99
+10092,Operations,Guest,Contractor,Sydney,F0:18:98:86:02:87,50–89 wpm,98–199 ms,132–283 ms,0.58–0.96
+10093,HR,HR,Recruiter,New York,79:F9:C5:94:9C:C8,41–90 wpm,85–156 ms,143–265 ms,0.61–0.98
+10094,Marketing,Guest,Contractor,Sydney,57:19:76:59:76:4E,49–72 wpm,99–197 ms,117–222 ms,0.63–0.91
+10095,Marketing,Guest,Contractor,Sydney,3C:15:C2:9B:BF:51,46–71 wpm,90–176 ms,144–267 ms,0.59–0.97
+10096,IT,Admin,Network Engineer,Sydney,F0:18:98:07:15:70,44–89 wpm,94–170 ms,111–264 ms,0.53–0.92
+10097,Marketing,Guest,Contractor,Sydney,3C:15:C2:C2:6D:CA,44–70 wpm,81–159 ms,137–231 ms,0.54–0.89
+10098,IT,Admin,Network Engineer,Sydney,F0:18:98:AE:10:23,44–71 wpm,99–183 ms,130–240 ms,0.5–0.88
+10099,HR,HR,HR Manager,Sydney,A4:5E:60:CF:85:1C,46–84 wpm,84–168 ms,114–261 ms,0.53–0.9
+10100,Marketing,Guest,Intern,Sydney,A4:5E:60:0B:1E:06,47–71 wpm,90–160 ms,145–273 ms,0.65–0.83
+10101,IT,Admin,Network Engineer,Sydney,6D:42:F9:3D:E2:44,40–73 wpm,95–152 ms,143–277 ms,0.53–0.93
+10102,HR,HR,HR Manager,Sydney,F0:18:98:04:0B:64,43–82 wpm,84–150 ms,147–230 ms,0.56–0.98
+10103,Marketing,Guest,Contractor,Sydney,69:4F:CC:ED:5E:F5,43–76 wpm,80–166 ms,125–224 ms,0.66–0.99
+10104,Finance,Finance,Financial Analyst,Bangalore,C4:D3:18:AD:54:67,45–89 wpm,86–200 ms,148–284 ms,0.51–0.87
+10105,Finance,Finance,Accountant,Sydney,A6:48:AE:73:B7:C5,46–76 wpm,98–165 ms,117–203 ms,0.59–0.87
+10106,Finance,Finance,Accountant,Sydney,3C:15:C2:A1:FA:81,44–72 wpm,85–191 ms,124–286 ms,0.55–0.9
+10107,Finance,Finance,Accountant,New York,C9:0B:F0:3F:7B:A8,43–81 wpm,88–180 ms,113–223 ms,0.55–0.89
+10108,Operations,Guest,Contractor,Sydney,A4:5E:60:0C:EB:4F,42–84 wpm,98–185 ms,129–263 ms,0.66–0.83
+10109,Operations,Guest,Contractor,Sydney,5E:1F:03:88:17:6A,49–87 wpm,84–158 ms,123–298 ms,0.65–0.99
+10110,Operations,Guest,Contractor,Melbourne,41:D1:FF:33:B4:FE,43–77 wpm,80–187 ms,142–273 ms,0.65–0.95
+10111,IT,Admin,System Administrator,Sydney,F0:18:98:58:27:6A,44–74 wpm,98–171 ms,129–254 ms,0.55–0.81
+10112,Marketing,Guest,Contractor,Sydney,48:57:66:F0:EE:C8,49–80 wpm,94–169 ms,121–242 ms,0.54–0.88
+10113,Marketing,Guest,Contractor,Sydney,A4:5E:60:07:69:5C,42–87 wpm,94–166 ms,117–240 ms,0.5–0.83
+10114,HR,HR,Recruiter,Sydney,A4:5E:60:33:90:3E,50–89 wpm,96–152 ms,139–279 ms,0.62–0.86
+10115,IT,Admin,System Administrator,Sydney,3C:15:C2:99:50:49,45–83 wpm,89–193 ms,109–290 ms,0.68–0.89
+10116,Operations,Guest,Contractor,Sydney,69:D5:10:6B:4F:3E,49–75 wpm,90–198 ms,145–297 ms,0.66–0.86
+10117,Marketing,Guest,Intern,New York,ED:C1:84:D0:D9:94,46–88 wpm,98–187 ms,148–210 ms,0.59–0.93
+10118,Marketing,Guest,Intern,Sydney,0C:E9:56:A2:F9:DB,47–78 wpm,93–193 ms,130–226 ms,0.63–0.81
+10119,HR,HR,HR Manager,Bangalore,10:2F:EC:80:DE:13,50–87 wpm,82–160 ms,123–216 ms,0.64–0.81
+10120,Finance,Finance,Financial Analyst,Sydney,3C:15:C2:8A:17:89,49–90 wpm,80–156 ms,146–287 ms,0.57–0.83
+10121,HR,HR,HR Manager,Sydney,F0:18:98:CB:F5:74,47–80 wpm,80–194 ms,147–300 ms,0.54–0.85
+10122,Operations,Guest,Contractor,Melbourne,8F:25:E0:65:95:7B,47–78 wpm,91–196 ms,137–234 ms,0.65–0.86
+10123,Operations,Guest,Intern,New York,76:15:26:D9:F3:76,49–71 wpm,80–150 ms,141–278 ms,0.58–0.93
+10124,IT,Admin,System Administrator,Sydney,3C:15:C2:F1:57:81,40–83 wpm,96–198 ms,132–258 ms,0.53–0.95
+10125,Finance,Finance,Financial Analyst,Bangalore,EC:EF:3D:89:16:CB,46–87 wpm,81–192 ms,101–221 ms,0.54–0.83
+10126,Finance,Finance,Financial Analyst,Sydney,A4:5E:60:97:12:9A,40–80 wpm,90–151 ms,131–274 ms,0.6–0.85
+10127,HR,HR,HR Manager,New York,88:01:1B:EA:D1:93,49–76 wpm,95–153 ms,106–240 ms,0.61–0.97
+10128,Marketing,Guest,Contractor,Sydney,59:E3:DC:A8:56:72,45–75 wpm,100–168 ms,120–233 ms,0.53–0.95
+10129,IT,Admin,Network Engineer,Sydney,62:AD:8C:4C:E1:D9,45–81 wpm,97–177 ms,116–288 ms,0.57–0.99
+10130,IT,Admin,System Administrator,Sydney,15:05:04:8D:B6:AD,44–80 wpm,91–154 ms,129–207 ms,0.64–0.81
+10131,Marketing,Guest,Intern,Sydney,A4:5E:60:E6:46:5F,40–80 wpm,83–173 ms,133–270 ms,0.69–0.87
+10132,HR,HR,Recruiter,Bangalore,76:81:19:73:EB:9D,46–90 wpm,83–158 ms,125–283 ms,0.53–0.97
+10133,Operations,Guest,Intern,Sydney,3C:15:C2:9F:3E:FB,43–82 wpm,95–189 ms,105–229 ms,0.56–0.86
+10134,Operations,Guest,Intern,Sydney,05:22:6E:40:58:62,41–89 wpm,95–181 ms,119–274 ms,0.59–0.82
+10135,IT,Admin,System Administrator,Sydney,A4:5E:60:BC:8F:1A,45–87 wpm,91–192 ms,116–289 ms,0.7–0.92
+10136,IT,Admin,System Administrator,Sydney,1B:9B:DE:03:4B:55,50–82 wpm,84–156 ms,128–236 ms,0.58–0.88
+10137,Finance,Finance,Financial Analyst,Sydney,3C:15:C2:7C:62:C8,50–88 wpm,84–166 ms,135–228 ms,0.6–0.97
+10138,HR,HR,HR Manager,Sydney,A4:5E:60:D4:54:AC,48–80 wpm,91–151 ms,105–206 ms,0.58–0.99
+10139,Finance,Finance,Accountant,Sydney,1C:6E:1C:33:A0:44,50–84 wpm,97–151 ms,144–211 ms,0.56–0.87
+10140,HR,HR,Recruiter,Sydney,F0:18:98:11:7C:49,45–90 wpm,94–188 ms,125–252 ms,0.58–0.83
+10141,Marketing,Guest,Intern,Sydney,E7:97:FB:4C:75:34,41–77 wpm,88–197 ms,117–215 ms,0.5–0.92
+10142,Operations,Guest,Intern,Sydney,8C:73:16:1F:80:4D,42–85 wpm,92–170 ms,100–287 ms,0.61–0.97
+10143,IT,Admin,Network Engineer,Sydney,A4:5E:60:73:4E:B3,48–78 wpm,85–165 ms,105–240 ms,0.51–0.81
+10144,Operations,Guest,Intern,Sydney,A4:5E:60:ED:D0:DC,49–71 wpm,96–154 ms,142–286 ms,0.61–0.95
+10145,Operations,Guest,Intern,Sydney,F0:18:98:C5:51:37,48–85 wpm,93–189 ms,134–285 ms,0.57–0.91
+10146,HR,HR,Recruiter,Sydney,A4:5E:60:35:BA:92,42–86 wpm,86–181 ms,103–210 ms,0.66–0.93
+10147,Operations,Guest,Contractor,Sydney,31:3F:CD:C0:DD:86,49–88 wpm,89–166 ms,143–218 ms,0.61–0.94
+10148,Finance,Finance,Financial Analyst,New York,28:26:E5:17:3D:3F,42–86 wpm,80–152 ms,121–255 ms,0.64–1.0
+10149,Marketing,Guest,Intern,Sydney,20:A3:7B:FE:DC:C9,44–86 wpm,83–200 ms,148–236 ms,0.62–0.9
+10150,IT,Admin,System Administrator,Sydney,D4:1F:A3:AE:A8:16,45–88 wpm,86–178 ms,129–289 ms,0.65–0.82
+10151,HR,HR,HR Manager,Sydney,A4:5E:60:69:2C:EF,49–81 wpm,99–185 ms,114–295 ms,0.69–0.87
+10152,Finance,Finance,Accountant,London,5C:EC:A7:21:AE:B3,45–80 wpm,93–194 ms,107–203 ms,0.51–0.84
+10153,Marketing,Guest,Contractor,Bangalore,05:EA:01:F7:37:58,40–87 wpm,85–194 ms,147–264 ms,0.7–0.97
+10154,IT,Admin,System Administrator,New York,11:FD:0C:63:E3:69,50–72 wpm,87–170 ms,146–234 ms,0.68–0.83
+10155,Operations,Guest,Contractor,Sydney,B9:58:88:57:FA:6E,44–90 wpm,87–176 ms,143–265 ms,0.58–0.92
+10156,Operations,Guest,Contractor,Sydney,AC:39:DA:A1:E1:1A,45–74 wpm,84–158 ms,115–203 ms,0.59–0.84
+10157,Marketing,Guest,Intern,Sydney,F0:18:98:8C:8C:2B,49–88 wpm,93–151 ms,140–231 ms,0.6–1.0
+10158,Marketing,Guest,Intern,Sydney,F7:46:9E:17:AD:4F,47–84 wpm,91–165 ms,144–209 ms,0.7–0.96
+10159,IT,Admin,Network Engineer,Sydney,5C:FF:28:70:6D:B0,50–86 wpm,96–152 ms,146–259 ms,0.55–0.96
+10160,Operations,Guest,Intern,Sydney,F0:18:98:92:F3:4B,41–75 wpm,96–178 ms,139–240 ms,0.58–0.94
+10161,Marketing,Guest,Contractor,Sydney,AF:86:6A:CE:CF:2F,50–89 wpm,86–200 ms,130–222 ms,0.58–0.98
+10162,Finance,Finance,Accountant,Sydney,DE:D7:06:25:42:E0,42–71 wpm,93–184 ms,140–297 ms,0.63–0.88
+10163,Operations,Guest,Intern,Sydney,4F:47:77:AD:0F:3F,48–87 wpm,92–166 ms,128–232 ms,0.65–0.9
+10164,Operations,Guest,Intern,Sydney,3C:15:C2:AA:FA:83,42–83 wpm,88–154 ms,129–232 ms,0.6–0.96
+10165,IT,Admin,Network Engineer,Sydney,A4:5E:60:21:50:01,49–81 wpm,97–197 ms,130–213 ms,0.5–0.84
+10166,HR,HR,HR Manager,Sydney,A4:5E:60:C4:61:A3,43–84 wpm,100–184 ms,125–231 ms,0.52–0.9
+10167,Operations,Guest,Contractor,Sydney,B6:5D:F0:F1:79:5C,45–73 wpm,84–198 ms,106–223 ms,0.59–0.87
+10168,Finance,Finance,Accountant,Sydney,B8:08:83:3F:7D:3A,41–83 wpm,83–196 ms,100–238 ms,0.67–0.96
+10169,IT,Admin,Network Engineer,Sydney,A6:D4:FF:CA:AC:4E,44–86 wpm,84–175 ms,126–252 ms,0.59–0.95
+10170,Marketing,Guest,Contractor,Sydney,30:E4:A8:4C:90:08,46–89 wpm,83–173 ms,114–206 ms,0.64–0.95
+10171,Finance,Finance,Accountant,Sydney,4A:B2:1D:8D:3B:65,40–87 wpm,96–181 ms,121–297 ms,0.52–0.81
+10172,HR,HR,HR Manager,Sydney,3C:15:C2:49:11:C7,40–87 wpm,86–150 ms,126–217 ms,0.65–0.81
+10173,Finance,Finance,Accountant,Sydney,A4:5E:60:6E:DC:F3,42–83 wpm,99–172 ms,141–276 ms,0.52–0.83
+10174,HR,HR,Recruiter,Sydney,02:A7:1D:86:A8:44,40–84 wpm,92–175 ms,101–293 ms,0.59–0.97
+10175,Finance,Finance,Financial Analyst,Sydney,A4:D9:E4:A7:C3:3E,44–88 wpm,87–183 ms,137–202 ms,0.54–0.99
+10176,Marketing,Guest,Intern,Sydney,C2:ED:97:DE:6E:F7,41–71 wpm,82–170 ms,129–254 ms,0.57–0.83
+10177,Marketing,Guest,Intern,New York,0D:C7:0A:48:BE:73,46–75 wpm,83–189 ms,131–214 ms,0.67–0.82
+10178,Marketing,Guest,Contractor,New York,0E:E1:E8:49:E4:7B,43–84 wpm,98–188 ms,138–220 ms,0.53–0.86
+10179,Marketing,Guest,Intern,Sydney,8F:B1:D1:81:B5:9D,40–90 wpm,90–193 ms,109–260 ms,0.53–0.94
+10180,Operations,Guest,Contractor,Sydney,77:7C:FF:C0:44:7A,50–73 wpm,97–190 ms,127–211 ms,0.61–0.84
+10181,IT,Admin,System Administrator,Sydney,F0:18:98:64:74:BE,50–76 wpm,94–182 ms,113–257 ms,0.57–0.84
+10182,Marketing,Guest,Contractor,Sydney,A4:5E:60:07:AA:ED,41–75 wpm,100–160 ms,118–246 ms,0.5–0.85
+10183,Finance,Finance,Financial Analyst,Sydney,3C:15:C2:B5:09:88,45–82 wpm,84–179 ms,127–256 ms,0.65–0.83
+10184,HR,HR,HR Manager,Sydney,F2:C3:24:73:8D:9E,48–75 wpm,86–189 ms,109–252 ms,0.65–0.93
+10185,Finance,Finance,Accountant,Sydney,DE:64:34:CD:82:05,43–72 wpm,81–178 ms,103–255 ms,0.66–0.86
+10186,Marketing,Guest,Intern,Sydney,F0:18:98:7B:A2:1A,46–76 wpm,82–199 ms,104–262 ms,0.67–0.83
+10187,IT,Admin,System Administrator,Sydney,A4:5E:60:28:68:7B,48–89 wpm,88–199 ms,130–256 ms,0.67–0.89
+10188,HR,HR,HR Manager,Melbourne,E7:1F:CB:F0:8D:65,40–71 wpm,82–192 ms,104–253 ms,0.7–0.83
+10189,Finance,Finance,Financial Analyst,New York,5D:B6:54:5A:C9:48,49–74 wpm,99–164 ms,104–219 ms,0.56–0.95
+10190,HR,HR,HR Manager,Sydney,28:5D:8E:89:42:D1,43–76 wpm,84–169 ms,119–287 ms,0.67–0.87
+10191,IT,Admin,System Administrator,London,E5:FA:95:BD:BA:64,44–71 wpm,97–194 ms,104–259 ms,0.55–0.82
+10192,Operations,Guest,Intern,London,A5:04:6E:88:A4:F8,49–84 wpm,82–180 ms,145–212 ms,0.6–0.97
+10193,Finance,Finance,Financial Analyst,Sydney,82:4F:06:09:25:72,48–77 wpm,87–156 ms,114–235 ms,0.62–0.87
+10194,HR,HR,HR Manager,Melbourne,F2:AC:CC:F0:CA:93,48–79 wpm,92–177 ms,136–281 ms,0.67–0.93
+10195,Finance,Finance,Accountant,Sydney,3C:15:C2:6E:F9:58,42–77 wpm,96–193 ms,102–213 ms,0.55–0.98
+10196,Marketing,Guest,Intern,Sydney,A4:5E:60:62:E0:44,46–75 wpm,86–167 ms,143–296 ms,0.5–0.84
+10197,Operations,Guest,Contractor,Sydney,F0:18:98:49:F8:D6,50–76 wpm,94–186 ms,148–273 ms,0.64–0.89
+10198,Finance,Finance,Financial Analyst,Sydney,A4:5E:60:E6:8C:C9,47–88 wpm,80–158 ms,145–285 ms,0.55–0.82
+10199,Marketing,Guest,Intern,Sydney,F0:18:98:F3:46:63,46–81 wpm,83–178 ms,124–258 ms,0.63–0.85
+10200,Operations,Guest,Contractor,London,54:CF:5A:2E:FA:7F,41–85 wpm,95–172 ms,126–207 ms,0.59–0.82
+10201,Operations,Guest,Contractor,Sydney,3C:15:C2:8F:49:B4,46–71 wpm,90–169 ms,146–217 ms,0.6–0.82
+10202,IT,Admin,Network Engineer,Sydney,F0:18:98:2C:EF:0F,48–73 wpm,85–151 ms,120–240 ms,0.6–0.93
+10203,Finance,Finance,Financial Analyst,Sydney,29:33:06:43:C3:AE,43–88 wpm,94–197 ms,150–266 ms,0.67–0.95
+10204,HR,HR,Recruiter,Sydney,31:7A:9B:1A:0A:01,44–80 wpm,88–169 ms,127–207 ms,0.66–0.91
+10205,HR,HR,HR Manager,Sydney,F0:18:98:66:50:53,48–73 wpm,95–168 ms,122–284 ms,0.54–0.84
+10206,IT,Admin,Network Engineer,Sydney,DA:4B:4B:77:6F:53,45–85 wpm,95–174 ms,144–223 ms,0.61–0.92
+10207,Finance,Finance,Financial Analyst,New York,0E:F2:39:5E:02:25,48–70 wpm,93–155 ms,110–300 ms,0.6–0.96
+10208,Finance,Finance,Financial Analyst,Sydney,A4:5E:60:76:67:A3,43–82 wpm,100–197 ms,120–247 ms,0.61–0.89
+10209,HR,HR,HR Manager,Sydney,3C:15:C2:A4:C8:1B,49–73 wpm,82–191 ms,135–267 ms,0.55–0.91
+10210,IT,Admin,System Administrator,Sydney,6B:49:BB:B6:5A:7E,49–82 wpm,98–167 ms,132–297 ms,0.66–0.88
+10211,Marketing,Guest,Intern,Sydney,37:C9:72:6B:5F:05,47–85 wpm,89–165 ms,110–215 ms,0.51–0.92
+10212,Operations,Guest,Contractor,Sydney,A4:5E:60:01:2D:2D,49–79 wpm,88–184 ms,112–268 ms,0.51–0.83
+10213,Finance,Finance,Financial Analyst,Sydney,3F:CF:EC:1A:79:63,40–82 wpm,98–184 ms,131–229 ms,0.66–0.89
+10214,Operations,Guest,Contractor,Melbourne,B1:0D:35:74:16:4B,43–73 wpm,93–170 ms,113–202 ms,0.53–0.95
+10215,Finance,Finance,Financial Analyst,Sydney,0E:61:39:7C:D0:16,41–88 wpm,89–152 ms,105–235 ms,0.66–0.99
+10216,Marketing,Guest,Intern,Sydney,F0:18:98:20:89:D5,40–89 wpm,81–180 ms,123–262 ms,0.52–0.84
+10217,IT,Admin,System Administrator,London,A5:7E:FC:8F:72:1C,44–82 wpm,81–171 ms,143–271 ms,0.62–0.92
+10218,HR,HR,Recruiter,Sydney,F0:18:98:4A:41:FC,45–87 wpm,99–189 ms,109–268 ms,0.62–0.83
+10219,Marketing,Guest,Contractor,New York,6E:22:1A:76:85:B3,40–90 wpm,97–162 ms,136–229 ms,0.52–0.95
+10220,Finance,Finance,Accountant,London,AD:D8:6C:2B:D5:B2,40–70 wpm,93–192 ms,125–223 ms,0.51–0.83
+10221,HR,HR,HR Manager,Sydney,40:D4:36:F0:85:AD,41–81 wpm,96–159 ms,112–218 ms,0.61–0.9
+10222,Operations,Guest,Contractor,Sydney,21:A7:74:77:CB:BB,43–82 wpm,85–160 ms,109–257 ms,0.67–0.96
+10223,Finance,Finance,Accountant,Sydney,F0:18:98:67:F1:71,45–78 wpm,89–163 ms,146–255 ms,0.62–0.95
+10224,Operations,Guest,Intern,Sydney,3C:15:C2:89:37:4F,40–83 wpm,85–166 ms,126–283 ms,0.69–0.85
+10225,Operations,Guest,Contractor,Sydney,3C:15:C2:75:87:7B,45–71 wpm,82–197 ms,144–296 ms,0.57–0.9
+10226,Operations,Guest,Intern,Sydney,A4:5E:60:EA:44:5F,45–83 wpm,99–180 ms,123–208 ms,0.67–0.95
+10227,Operations,Guest,Intern,Sydney,3C:15:C2:D7:F0:9E,44–83 wpm,99–162 ms,116–265 ms,0.61–0.83
+10228,Operations,Guest,Intern,Melbourne,AD:D7:1F:30:BA:33,40–85 wpm,92–193 ms,125–273 ms,0.54–0.82
+10229,HR,HR,HR Manager,Sydney,A4:5E:60:57:56:98,45–70 wpm,83–162 ms,136–263 ms,0.61–0.92
+10230,IT,Admin,Network Engineer,Sydney,E2:70:2E:A5:DA:A7,50–76 wpm,80–185 ms,122–286 ms,0.51–0.91
+10231,Operations,Guest,Intern,Bangalore,AA:C5:96:96:95:A5,42–70 wpm,97–200 ms,100–265 ms,0.67–0.81
+10232,Operations,Guest,Contractor,Sydney,55:7A:C4:DA:19:08,46–70 wpm,86–168 ms,150–280 ms,0.5–0.91
+10233,Operations,Guest,Contractor,Sydney,A4:5E:60:15:BA:3F,50–74 wpm,97–199 ms,143–274 ms,0.65–0.95
+10234,Operations,Guest,Intern,Sydney,17:2E:C0:2B:2F:C0,49–79 wpm,80–160 ms,101–288 ms,0.57–0.98
+10235,Marketing,Guest,Intern,Sydney,F0:18:98:59:51:F9,45–71 wpm,84–194 ms,130–268 ms,0.7–0.97
+10236,Operations,Guest,Contractor,Melbourne,AC:2D:FA:01:86:23,41–85 wpm,93–153 ms,113–278 ms,0.66–0.98
+10237,HR,HR,Recruiter,Sydney,4F:80:33:C3:65:D5,43–87 wpm,94–189 ms,126–232 ms,0.56–0.87
+10238,IT,Admin,System Administrator,Sydney,3C:15:C2:79:0E:0F,43–82 wpm,88–182 ms,132–227 ms,0.56–0.84
+10239,IT,Admin,Network Engineer,Sydney,3C:15:C2:E6:15:79,44–86 wpm,88–180 ms,110–259 ms,0.69–0.84
+10240,Marketing,Guest,Contractor,Sydney,1F:16:77:41:E5:EC,45–88 wpm,91–192 ms,117–296 ms,0.59–0.93
+10241,Finance,Finance,Financial Analyst,Sydney,3C:15:C2:49:73:8A,40–81 wpm,99–162 ms,128–268 ms,0.51–0.82
+10242,IT,Admin,Network Engineer,Sydney,3C:15:C2:82:F8:A7,49–75 wpm,100–163 ms,141–285 ms,0.64–0.87
+10243,Finance,Finance,Financial Analyst,Sydney,F0:18:98:BD:51:36,44–78 wpm,99–169 ms,120–248 ms,0.61–0.9
+10244,IT,Admin,Network Engineer,Sydney,A4:5E:60:97:4B:24,41–83 wpm,99–155 ms,144–213 ms,0.68–0.86
+10245,IT,Admin,Network Engineer,Sydney,D3:3C:0E:ED:6D:8A,44–87 wpm,95–174 ms,142–250 ms,0.6–0.82
+10246,IT,Admin,Network Engineer,London,09:AC:87:27:DB:F6,42–77 wpm,96–152 ms,116–268 ms,0.54–0.83
+10247,IT,Admin,System Administrator,Sydney,3C:15:C2:99:89:DA,46–71 wpm,91–151 ms,121–233 ms,0.62–0.83
+10248,IT,Admin,System Administrator,Sydney,73:30:42:7D:CD:EB,40–89 wpm,90–186 ms,107–216 ms,0.57–0.85
+10249,HR,HR,Recruiter,Sydney,A4:5E:60:77:63:DC,41–84 wpm,86–192 ms,145–279 ms,0.62–0.81
+10250,IT,Admin,Network Engineer,Sydney,3C:15:C2:89:F7:E9,50–80 wpm,80–183 ms,137–266 ms,0.7–0.97
+10251,Marketing,Guest,Contractor,Sydney,3C:15:C2:DE:20:53,50–85 wpm,98–162 ms,134–255 ms,0.55–0.85
+10252,Operations,Guest,Intern,Sydney,3C:15:C2:A2:B1:07,44–72 wpm,97–197 ms,113–209 ms,0.54–0.81
+10253,Marketing,Guest,Contractor,Sydney,3C:15:C2:65:1B:EF,50–70 wpm,96–150 ms,116–233 ms,0.53–0.9
+10254,Finance,Finance,Financial Analyst,Sydney,04:98:FB:D0:34:5A,40–90 wpm,95–176 ms,134–236 ms,0.63–0.83
+10255,Finance,Finance,Accountant,Sydney,0B:72:A5:EA:8A:18,42–81 wpm,96–155 ms,128–220 ms,0.58–0.87
+10256,Finance,Finance,Accountant,Sydney,D8:A5:47:16:E3:02,44–78 wpm,93–156 ms,146–256 ms,0.55–0.96
+10257,HR,HR,Recruiter,Sydney,13:85:AD:DB:CE:E2,45–83 wpm,80–185 ms,108–267 ms,0.65–0.93
+10258,Finance,Finance,Financial Analyst,Sydney,45:67:9C:48:7E:F9,41–79 wpm,98–161 ms,114–282 ms,0.66–0.84
+10259,Finance,Finance,Financial Analyst,New York,B5:0B:5D:EC:19:71,40–88 wpm,80–163 ms,104–209 ms,0.52–0.9
+10260,Finance,Finance,Financial Analyst,New York,C3:F4:09:E9:01:74,48–79 wpm,81–179 ms,128–269 ms,0.62–0.88
+10261,Operations,Guest,Intern,Sydney,3C:15:C2:CC:93:A2,41–76 wpm,95–186 ms,111–271 ms,0.69–0.96
+10262,HR,HR,Recruiter,Sydney,A4:5E:60:F4:4F:59,49–80 wpm,100–163 ms,104–289 ms,0.62–0.81
+10263,Marketing,Guest,Intern,New York,7B:9D:B1:B5:51:87,49–89 wpm,86–155 ms,150–239 ms,0.69–0.95
+10264,Finance,Finance,Accountant,Sydney,F0:18:98:D0:C0:AC,47–87 wpm,93–196 ms,145–262 ms,0.53–0.91
+10265,Operations,Guest,Intern,Sydney,65:8D:07:90:56:7A,44–90 wpm,82–163 ms,124–235 ms,0.69–0.81
+10266,Marketing,Guest,Contractor,Sydney,3C:15:C2:52:51:64,47–87 wpm,90–161 ms,100–246 ms,0.54–0.92
+10267,Finance,Finance,Financial Analyst,Sydney,F0:18:98:7B:93:FA,50–80 wpm,83–169 ms,149–268 ms,0.68–0.9
+10268,Marketing,Guest,Intern,Sydney,3C:15:C2:89:7B:4C,46–77 wpm,99–175 ms,135–207 ms,0.58–0.91
+10269,HR,HR,Recruiter,Sydney,45:DA:F5:50:97:3F,44–81 wpm,80–187 ms,141–253 ms,0.59–0.89
+10270,IT,Admin,Network Engineer,Sydney,41:86:31:C9:A9:C3,42–83 wpm,81–195 ms,149–263 ms,0.51–0.84
+10271,Finance,Finance,Accountant,Sydney,3C:15:C2:CE:18:A5,47–88 wpm,93–160 ms,104–233 ms,0.65–0.98
+10272,Marketing,Guest,Intern,Sydney,DC:A9:D8:6E:7A:9C,44–70 wpm,93–163 ms,140–238 ms,0.51–0.84
+10273,Marketing,Guest,Contractor,Sydney,BA:5C:E3:32:D2:07,42–71 wpm,97–166 ms,131–238 ms,0.55–0.92
+10274,IT,Admin,Network Engineer,Bangalore,0E:F5:9A:CA:54:CD,48–77 wpm,90–176 ms,107–274 ms,0.56–0.85
+10275,Operations,Guest,Contractor,Sydney,F5:38:E4:D5:36:88,50–78 wpm,89–184 ms,149–254 ms,0.55–0.9
+10276,HR,HR,Recruiter,Sydney,F0:18:98:A5:07:68,47–79 wpm,95–188 ms,139–290 ms,0.54–0.93
+10277,Operations,Guest,Contractor,Sydney,A4:5E:60:49:7E:20,50–82 wpm,99–156 ms,102–254 ms,0.61–0.91
+10278,IT,Admin,System Administrator,London,F1:6C:42:BB:09:29,49–84 wpm,87–179 ms,134–226 ms,0.58–0.86
+10279,Finance,Finance,Financial Analyst,Sydney,3C:15:C2:4C:44:2B,49–89 wpm,100–183 ms,136–223 ms,0.51–0.89
+10280,Operations,Guest,Intern,Sydney,80:9E:B5:08:AB:0D,50–76 wpm,94–159 ms,139–294 ms,0.57–0.86

@@ -1,0 +1,357 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Automated Testing Dashboard</title>
+  <style>
+    :root {
+      --primary:    #0062cc;
+      --secondary:  #0056a3;
+      --bg-page:    #f5f7fa;
+      --bg-panel:   #ffffff;
+      --text:       #333333;
+      --low:        #28a745;
+      --high:       #dc3545;
+      --final-bg:   #ececec;   /* light grey for final card */
+      --radius:     8px;
+      --shadow:     0 2px 6px rgba(0,0,0,0.1);
+      --font:       -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      --mono:       Consolas, "Courier New", monospace;
+    }
+    * { box-sizing: border-box; margin:0; padding:0; }
+    body {
+      background: var(--bg-page);
+      font-family: var(--font);
+      color: var(--text);
+      padding: 2rem;
+    }
+    h1 {
+      font-size: 1.8rem;
+      color: var(--primary);
+      margin-bottom: 1.5rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto auto;
+      gap: 1.5rem;
+    }
+    .panel {
+      background: var(--bg-panel);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 1.5rem;
+    }
+    .controls { grid-area: 1 / 1 / 2 / 2; }
+    .results  { grid-area: 1 / 2 / 2 / 3; }
+    .payload  { grid-area: 2 / 1 / 3 / 2; }
+    .details  { grid-area: 2 / 2 / 3 / 3; }
+
+    .panel h2 {
+      margin-top: 0;
+      font-size: 1.2rem;
+      color: var(--primary);
+      margin-bottom: 1rem;
+    }
+
+    /* Feeder Controls */
+    .controls input {
+      width: 100%;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: var(--radius);
+    }
+    .controls button {
+      width: 100%;
+      padding: 0.6rem;
+      background: var(--primary);
+      border: none;
+      border-radius: var(--radius);
+      color: #fff;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .controls button:hover {
+      background: var(--secondary);
+    }
+
+    /* Results Cards */
+    .result-cards {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+    .card {
+      background: var(--bg-page);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 1rem;
+      text-align: center;
+    }
+    .card h3 {
+      margin: 0 0 0.5rem;
+      font-size: 0.95rem;
+      color: var(--text);
+    }
+    .card .badge,
+    .card #mseValue {
+      font-size: 1.2rem;
+      display: inline-block;
+      margin-top: 0.25rem;
+      font-family: var(--mono);
+    }
+
+    /* Final Decision card styles */
+    .card.final {
+      background: var(--final-bg);
+    }
+    .card.final h3 {
+      color: var(--text);
+    }
+    /* no badge override—uses badge-low or badge-high */
+
+    .badge {
+      display: inline-block;
+      padding: 0.3rem 0.6rem;
+      border-radius: var(--radius);
+      color: #fff;
+      font-weight: 600;
+      font-size: 1rem;
+    }
+    .badge-low  { background: var(--low); }
+    .badge-high { background: var(--high); }
+
+    .description {
+      padding: 1rem;
+      border-radius: var(--radius);
+      line-height: 1.5;
+    }
+    .description.ok    { background: #eaf8ea; border-left: 4px solid var(--low); }
+    .description.error { background: #fdecea; border-left: 4px solid var(--high); }
+
+    /* Payload Viewer with CSS counters */
+    .payload-header {
+      font-family: var(--mono);
+      font-size: 0.9rem;
+      margin-bottom: 0.5rem;
+      color: #fff;
+      background: var(--primary);
+      padding: 0.5rem 1rem;
+      border-top-left-radius: var(--radius);
+      border-top-right-radius: var(--radius);
+    }
+    .payload-body {
+      border: 1px solid #ddd;
+      border-bottom-left-radius: var(--radius);
+      border-bottom-right-radius: var(--radius);
+    }
+    #payloadViewer {
+      counter-reset: line;
+      font-family: var(--mono);
+      font-size: 0.9rem;
+      line-height: 1.4;
+      white-space: pre;
+      padding: 0.5rem;
+    }
+    #payloadViewer span {
+      display: block;
+      padding-left: 3em;
+      position: relative;
+    }
+    #payloadViewer span::before {
+      counter-increment: line;
+      content: counter(line);
+      position: absolute;
+      left: 0;
+      width: 2.5em;
+      text-align: right;
+      color: #666;
+    }
+
+    /* Detailed session table */
+    .details table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .details th, .details td {
+      padding: 0.6rem;
+      border-bottom: 1px solid #eee;
+      text-align: left;
+    }
+    .details th {
+      background: var(--primary);
+      color: #fff;
+    }
+    .details tbody tr:nth-child(even) {
+      background: #fafafa;
+    }
+  </style>
+</head>
+<body>
+  <h1><center>Dynamic Access Control Testing with Zero Trust Implementation</center></h1><hr><br>
+
+  <div class="grid">
+    <!-- 1) Feeder Control -->
+    <div class="panel controls">
+      <h2>UserID for Testing:</h2>
+      <input type="number" id="userInput" placeholder="Enter UserID">
+      <button id="setUserBtn">Set User</button>
+    </div>
+
+    <!-- 2) Results -->
+    <div class="panel results">
+      <h2>Results</h2>
+      <div class="result-cards">
+        <div class="card final">
+          <h3>Final Decision</h3>
+          <span id="finalBadge" class="badge badge-low">—</span>
+        </div>
+        <div class="card">
+          <h3>Isolation Forest</h3>
+          <span id="ifBadge" class="badge">—</span>
+        </div>
+        <div class="card">
+          <h3>Variational Autoencoder</h3>
+          <span id="vaeBadge" class="badge">—</span>
+        </div>
+        <div class="card">
+          <h3>Reconstruction MSE</h3>
+          <span id="mseValue">—</span>
+        </div>
+      </div>
+      <div id="resultDesc" class="description ok">
+        Waiting for first payload...
+      </div>
+    </div>
+
+    <!-- 3) Live Payload -->
+    <div class="panel payload">
+      <h2>Live Payload</h2>
+      <div class="payload-header">JSON Payload (with line numbers)</div>
+      <div class="payload-body">
+        <pre id="payloadViewer">No payload yet.</pre>
+      </div>
+    </div>
+
+    <!-- 4) Detailed Session (Latest 10) -->
+    <div class="panel details">
+      <h2>Detailed Session (Latest 10 Events)</h2>
+      <table>
+        <thead>
+          <tr><th>Time</th><th>Flags</th><th>Decision</th><th>Risk Score</th></tr>
+        </thead>
+        <tbody id="historyBody">
+          <tr><td colspan="4" style="opacity:.6">No history yet.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script>
+    // Render JSON with line-number spans
+    function renderPayload(payload) {
+      const el = document.getElementById('payloadViewer');
+      if (!payload) {
+        el.textContent = 'No payload yet.';
+        return;
+      }
+      const lines = JSON.stringify(payload, null, 2)
+                      .split('\n')
+                      .map(line => `<span>${line.replace(/&/g,'&amp;')
+                                                 .replace(/</g,'&lt;')
+                                                 .replace(/>/g,'&gt;')}</span>`)
+                      .join('');
+      el.innerHTML = lines;
+    }
+
+    // 1) Set UserID
+    document.getElementById('setUserBtn').onclick = () => {
+      const uid = parseInt(document.getElementById('userInput').value, 10);
+      if (!Number.isInteger(uid)) return alert('Please enter a valid UserID.');
+      fetch("{% url 'realtime:set_user' %}", {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'X-CSRFToken': '{{ csrf_token }}'
+        },
+        body: JSON.stringify({ UserID: uid })
+      });
+    };
+
+    // 2) Poll every 2 seconds
+    async function refreshAll() {
+      const latest = await fetch("{% url 'realtime:latest_payload' %}").then(r=>r.json());
+      const { payload, response: res } = latest;
+
+      // Live Payload
+      renderPayload(payload);
+
+      // Update Result Cards & Narrative
+      const finalBadge = document.getElementById('finalBadge');
+      const ifBadge    = document.getElementById('ifBadge');
+      const vaeBadge   = document.getElementById('vaeBadge');
+      const mseVal     = document.getElementById('mseValue');
+      const desc       = document.getElementById('resultDesc');
+
+      if (!res || !res.if_decision) {
+        finalBadge.textContent = ifBadge.textContent = vaeBadge.textContent = mseVal.textContent = '—';
+        finalBadge.className   = 'badge badge-low';
+        desc.className         = 'description ok';
+        desc.textContent       = 'Waiting for first payload...';
+      } else {
+        const allow = !res.override && res.risk_score === 0;
+        finalBadge.textContent = allow ? 'Allow' : (res.override ? 'Override' : 'Deny');
+        finalBadge.className   = `badge ${allow? 'badge-low':'badge-high'}`;
+
+        ifBadge.textContent  = res.if_decision;
+        ifBadge.className    = `badge ${res.if_decision==='Allow'?'badge-low':'badge-high'}`;
+        vaeBadge.textContent = res.vae_decision;
+        vaeBadge.className   = `badge ${res.vae_decision==='Allow'?'badge-low':'badge-high'}`;
+        mseVal.textContent   = Number(res.mse).toFixed(4);
+
+        if (res.override) {
+          desc.className   = 'description error';
+          desc.textContent = `Zero-Trust override: ${res.reason}. Session denied.`;
+        } else if (!allow) {
+          desc.className   = 'description error';
+          desc.textContent = `Anomaly detected. Session denied.`;
+        } else {
+          desc.className   = 'description ok';
+          desc.textContent = `All clear. No anomalies or overrides. Session allowed.`;
+        }
+      }
+
+      // Detailed session (last 10)
+      const hist = await fetch("{% url 'realtime:history' %}").then(r=>r.json());
+      const tbody = document.getElementById('historyBody');
+      if (!hist.length) {
+        tbody.innerHTML = '<tr><td colspan="4" style="opacity:.6">No history yet.</td></tr>';
+      } else {
+        const latest10 = hist.slice().reverse().slice(0,10);
+        tbody.innerHTML = latest10.map(e => {
+          const ov  = e.response.override;
+          const rs  = e.response.risk_score;
+          const dec = ov ? 'Override' : (rs>0 ? 'Deny' : 'Allow');
+          const fl  = [
+            e.payload?.IPAddress ? `IP:${e.payload.IPAddress}` : '',
+            e.payload?.MACAddress? `MAC:${e.payload.MACAddress}` : ''
+          ].filter(Boolean).join(' ');
+          return `
+            <tr>
+              <td>${new Date(e.timestamp).toLocaleTimeString()}</td>
+              <td>${fl}</td>
+              <td><span class="badge ${dec==='Allow'?'badge-low':'badge-high'}">${dec}</span></td>
+              <td>${(rs||rs===0)? Number(rs).toFixed(4) : '–'}</td>
+            </tr>`;
+        }).join('');
+      }
+    }
+
+    setInterval(refreshAll, 2000);
+  </script>
+</body>
+</html>
